@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID === undefined ? '94759874797' : process.env.SESSION_ID, //ADD YOUR SESSION ID
+    SESSION_ID: process.env.SESSION_ID === undefined ? 'PINKVENOM-MD;qMthXabY#2Gz4igAbLVOdYgnZ5qesRSm5YjkDX2i3iMwW_t1d3cA' : process.env.SESSION_ID, //ADD YOUR SESSION ID
     GITHUB_USER_NAME: process.env.GITHUB_USER_NAME === undefined ? '' : process.env.GITHUB_USER_NAME, //ADD YOUR GITHUB USERNAME
     GITHUB_AUTH_TOKEN: process.env.GITHUB_AUTH_TOKEN === undefined ? '' : process.env.GITHUB_AUTH_TOKEN, //ADD YOUR GITHUB AUTH TOKEN WITHOUT gph_ ,  example - G5OxxdvEbiBPWxm4A0xypQGlyCr4FS267ifz
     WORK_TYPE: process.env.WORK_TYPE === undefined ? 'public' : process.env.WORK_TYPE, //ONLYME / ONLYGROUP OR PUBLIC
@@ -19,7 +19,7 @@ module.exports = {
     MAX_SIZE: process.env.MAX_SIZE === undefined ? '200' : process.env.MAX_SIZE, //MAX UPLOAD SIZE
     LOGO: process.env.LOGO === undefined ? `https://i.postimg.cc/JzHb8pfV/IMG-20241124-WA0139.jpg` : process.env.LOGO, //ALIVE IMAGE URL
     ANTI_LINK: process.env.ANTI_LINK === undefined ? 'true' : process.env.ANTI_LINK, //TRUE OR FALSE
-    ANTI_BAD: process.env.ANTI_BAD === undefined ? 'true' : process.env.ANTI_BAD, //TRUE OR FALSE
+    ANTI_BAD: process.env.ANTI_BAD === undefined ? 'fale' : process.env.ANTI_BAD, //TRUE OR FALSE
     ANTI_BOT: process.env.ANTI_BOT === undefined ? 'true' : process.env.ANTI_BOT, //TRUE OR FALSE
     READ_MESSAGE: process.env.READ_MESSAGE === undefined ? 'true' : process.env.READ_MESSAGE, //SET cmd FOR ONLY READ COMMANDS OR SET all FOR READ ALL MESSAGES
     ANTI_CALL: process.env.ANTI_CALL === undefined ? 'false' : process.env.ANTI_CALL, //TRUE OR FALSE
